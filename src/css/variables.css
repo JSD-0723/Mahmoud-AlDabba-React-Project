@@ -1,0 +1,25 @@
+:root {
+    --brand-primary: #0768ac;
+    --brand-secondary: #03c180;
+    --bg_default: #ffffff;
+    --bg_default-dark: 	#1A1A1A;
+    --bg_body: #f0f9ff;
+    --bg_body-dark: #282828;
+    --lines-color: #dddddd;
+    --body-text: #333333;
+    --heart-color: #dc143c;
+    --box-shadow: 0px 0px 8px -4px rgba(0,0,0,0.8);
+   
+    font-family: 'Nunito Sans';
+  }
+  
+  
+  
+  [theme="dark"]{
+    --brand-primary: #0768ac;
+    --brand-secondary: #03c180;
+    --bg_default: #1a1a1a;
+    --bg_body: #282828;
+    --lines-color: #000000;
+    --body-text: #ededed;
+  }
