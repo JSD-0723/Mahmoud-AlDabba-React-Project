@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mahmoud-AlDabba-React-Project/static/css/main.95d58269.css",
-    "main.js": "/Mahmoud-AlDabba-React-Project/static/js/main.253b9e37.js",
+    "main.js": "/Mahmoud-AlDabba-React-Project/static/js/main.e0043551.js",
     "static/media/analytics.png": "/Mahmoud-AlDabba-React-Project/static/media/analytics.7e81c6ec23532162f2ea.png",
     "static/media/angular.png": "/Mahmoud-AlDabba-React-Project/static/media/angular.fe7fe0b7dad8f1ba6bbd.png",
     "static/media/graphql.png": "/Mahmoud-AlDabba-React-Project/static/media/graphql.94da3de726a7948a2b53.png",
@@ -40,10 +40,10 @@
     "static/media/react.webp": "/Mahmoud-AlDabba-React-Project/static/media/react.55afe679a76823cdda39.webp",
     "index.html": "/Mahmoud-AlDabba-React-Project/index.html",
     "main.95d58269.css.map": "/Mahmoud-AlDabba-React-Project/static/css/main.95d58269.css.map",
-    "main.253b9e37.js.map": "/Mahmoud-AlDabba-React-Project/static/js/main.253b9e37.js.map"
+    "main.e0043551.js.map": "/Mahmoud-AlDabba-React-Project/static/js/main.e0043551.js.map"
   },
   "entrypoints": [
     "static/css/main.95d58269.css",
-    "static/js/main.253b9e37.js"
+    "static/js/main.e0043551.js"
   ]
 }
