@@ -13,7 +13,7 @@ function App() {
      <BrowserRouter>
      <Nav/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/Mahmoud-AlDabba-React-Project' element={<Home/>}/>
         <Route path='/details/:id' element={<Details/>}/>
       </Routes>
      </BrowserRouter>
