@@ -1,18 +1,5 @@
-import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-export default function Nav() {
-  const [mode, setMode] = useState(true);
-  let darkMode = () => {
-    if (localStorage.getItem('theme') === 'dark') {
-      document.documentElement.setAttribute('theme', 'light');
-      localStorage.setItem('theme', 'light');
-      setMode(true);
-    } else {
-      document.documentElement.setAttribute('theme', 'dark');
-      localStorage.setItem('theme', 'dark');
-      setMode(false);
-    }
-  };
+export default function Nav({ darkMode, mode, showFav }) {
   return (
     <>
       <header>
@@ -24,10 +11,7 @@ export default function Nav() {
             <button class="btn dark-mode" onClick={darkMode}>
               {mode ? (
                 <>
-                  <ion-icon
-                    name="sunny-outline"
-                    class="nav-icon"
-                  ></ion-icon>
+                  <ion-icon name="sunny-outline" class="nav-icon"></ion-icon>
                   Light Mode
                 </>
               ) : (
@@ -37,7 +21,7 @@ export default function Nav() {
                 </>
               )}
             </button>
-            <button className="btn fav">
+            <button className="btn fav" onClick={showFav}>
               <ion-icon name="heart-outline" class="nav-icon"></ion-icon>
               favorites
             </button>

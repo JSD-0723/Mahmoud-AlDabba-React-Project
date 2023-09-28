@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import HeroSection from '../home/HeroSection';
-import DetailsContent from './DetailsContent';
-
+import axios from 'axios';
+import HeroSection from '../../component/shared/HeroSection';
+import DetailsContent from '../../component/shared/DetailsContent';
 
 export default function Details() {
   const { id } = useParams();
@@ -11,10 +11,11 @@ export default function Details() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(
+        const response = await axios.get(
           `https://tap-web-1.herokuapp.com/topics/details/${id}`
         );
-        const result = await response.json();
+
+        const result = await response.data;
 
         setTopic(result);
       } catch (error) {
@@ -23,7 +24,6 @@ export default function Details() {
     }
     fetchData();
   }, [id]);
-
 
   return (
     <>
@@ -38,8 +38,7 @@ export default function Details() {
           name={topic?.name}
           topic={topic?.topic}
           subtopics={topic?.subtopics}
-          rating={topic?.rating}
-         
+          ratings={topic?.rating}
         />
       ) : (
         '...loading'

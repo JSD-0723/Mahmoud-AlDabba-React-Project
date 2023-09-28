@@ -1,22 +1,22 @@
-
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Nav from './component/Nav.jsx'
-import Home from './component/home/Home.jsx'
-import Details from './component/details/Details.jsx'
-
-
-
+import Home from './pages/home/Home.jsx';
+import Details from './pages/details/Details.jsx';
+import LayOut from './component/LayOut/LayOut.jsx';
 function App() {
   return (
     <>
-     <BrowserRouter>
-     <Nav/>
-      <Routes>
-        <Route path='/Mahmoud-AlDabba-React-Project' element={<Home/>}/>
-        <Route path='/details/:id' element={<Details/>}/>
-      </Routes>
-     </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/Mahmoud-AlDabba-React-Project" element={<LayOut />}>
+            <Route index element={<Home />} />
+            <Route
+              path="Mahmoud-AlDabba-React-Project/details/:id"
+              element={<Details />}
+            />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -100,7 +104,6 @@ header h1 {
 .content-body {
   background-color: var(--bg_body);
   padding-top: 20px;
-  height: 100vh;
 }
 
 .content-container {
@@ -178,6 +181,9 @@ header h1 {
   margin-bottom: 20px;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
+.star {
+  margin-block: 10px;
+}
 .card img {
   width: 100%;
   height: 140px;
@@ -191,6 +197,9 @@ header h1 {
 .card-text h4 {
   margin-top: 0;
   font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .card-framework {
   font-weight: 700;
@@ -198,10 +207,6 @@ header h1 {
 .card-author {
   color: grey;
   margin-bottom: 0;
-}
-
-.checked {
-  color: orange;
 }
 
 .fav-container {
@@ -223,6 +228,9 @@ header h1 {
 }
 .fav-cards {
   display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
 }
 .fav-card {
   width: 130px;
