@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mahmoud-AlDabba-React-Project/static/css/main.95d58269.css",
-    "main.js": "/Mahmoud-AlDabba-React-Project/static/js/main.e0043551.js",
+    "main.css": "/Mahmoud-AlDabba-React-Project/static/css/main.4741b1b3.css",
+    "main.js": "/Mahmoud-AlDabba-React-Project/static/js/main.f175cd43.js",
     "static/media/analytics.png": "/Mahmoud-AlDabba-React-Project/static/media/analytics.7e81c6ec23532162f2ea.png",
     "static/media/angular.png": "/Mahmoud-AlDabba-React-Project/static/media/angular.fe7fe0b7dad8f1ba6bbd.png",
     "static/media/graphql.png": "/Mahmoud-AlDabba-React-Project/static/media/graphql.94da3de726a7948a2b53.png",
@@ -39,11 +39,11 @@
     "static/media/expressjs.webp": "/Mahmoud-AlDabba-React-Project/static/media/expressjs.2ae1dc58f7c5318ca228.webp",
     "static/media/react.webp": "/Mahmoud-AlDabba-React-Project/static/media/react.55afe679a76823cdda39.webp",
     "index.html": "/Mahmoud-AlDabba-React-Project/index.html",
-    "main.95d58269.css.map": "/Mahmoud-AlDabba-React-Project/static/css/main.95d58269.css.map",
-    "main.e0043551.js.map": "/Mahmoud-AlDabba-React-Project/static/js/main.e0043551.js.map"
+    "main.4741b1b3.css.map": "/Mahmoud-AlDabba-React-Project/static/css/main.4741b1b3.css.map",
+    "main.f175cd43.js.map": "/Mahmoud-AlDabba-React-Project/static/js/main.f175cd43.js.map"
   },
   "entrypoints": [
-    "static/css/main.95d58269.css",
-    "static/js/main.e0043551.js"
+    "static/css/main.4741b1b3.css",
+    "static/js/main.f175cd43.js"
   ]
 }
